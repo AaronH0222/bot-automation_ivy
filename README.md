@@ -7,11 +7,12 @@
 ## 簽到機器人列表
 
 [![shopee](img/shopee.png)](https://shopee.tw/)
- 
+
 每日簽到領蝦幣！
- 
+
 - [📔 點我開始](docs/shopee-gha-inst.md)
 - [👷‍ 疑難排解](docs/shopee-issues.md)
+- [🤷‍♂️ FAQ](docs/shopee-faq.md)
 - [🤖 蝦皮簽到機器人原始碼](https://github.com/wdzeng/shopee-coins-bot)
 
 [![pinkoi](img/pinkoi.png)](https://www.pinkoi.com/)
