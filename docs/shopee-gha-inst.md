@@ -12,7 +12,7 @@
 
 ## 第一次手動簽到
 
-以下是設定的詳細步驟；你也可以參考[瘋先生的文章](https://mrmad.com.tw/shopee-automatic-sign-in-robot)，他做的圖片比我漂亮多了。
+以下是設定的詳細步驟；你也可以參考[瘋先生](https://mrmad.com.tw/shopee-automatic-sign-in-robot)或[電腦王阿達](https://www.kocpc.com.tw/archives/446141)的文章，他們做的圖片比我漂亮多了。
 
 不過，瘋先生文章底下提到，如果有看到 Pull Request（通知更新的意思），表示有更新。這點我補充一下：因為目前使用者人數太多，我現在已經沒有辦法一個一個發送更新通知了，未來也不會再主動通知更新。請使用者自行[關注更新](https://github.com/wdzeng/bot-automation#%E6%9B%B4%E6%96%B0)。
 
