@@ -4,11 +4,11 @@
 
 機器人運作的原理是模擬瀏覽器登入的情況。機器人會在蝦皮的登入頁面輸入你的帳號與密碼、按登入按鈕、然後按領取蝦幣按鈕，就像真人一樣。
 
-GitHub Actions 是 GitHub 提供的一個服務，提供機器讓機器人在運行。所有的 GitHub 使用者都可以免費使用 GitHub Actions。
+[GitHub Actions](https://github.com/features/actions) 是 GitHub 提供的一個服務，提供機器讓機器人在運行。所有的 GitHub 使用者都可以免費使用 GitHub Actions。
 
 ## 我的帳號安全嗎？
 
-你需要把你的帳號、密碼與金鑰放在 secret。Secret 是只有你能看到的東西。
+你需要把你的帳號、密碼與金鑰放在 [secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets)。Secret 是只有你能看到的東西。
 
 但是，機器人需要你的 cookie 來做後續的自動登入。機器人沒有權限把 cookie 放在 secret 中，因此只能選擇放在專案的公開區域中（在 credential 分支下的 shopee 檔案中）。這意味著你的 cookie 無可避免地會被看見，為此我們需要使用金鑰加密。金鑰放在 secret，其他人無法解密你的 cookie，因此你的帳號是安全的。
 
@@ -34,7 +34,7 @@ GitHub Actions 是 GitHub 提供的一個服務，提供機器讓機器人在運
 
 ## 為什麼我的機器人排程沒有執行？
 
-GitHub Action 的排程極易發生嚴重延誤，延誤時間通常是數個小時。如果你發現機器人沒有準時執行，請再等一段時間。
+GitHub Action 的排程[極易發生嚴重延誤](https://github.community/t/scheduled-action-running-consistently-late/138025/3)，延誤時間通常是數個小時。如果你發現機器人沒有準時執行，請再等一段時間。
 
 ## 我要如何更新機器人？
 
